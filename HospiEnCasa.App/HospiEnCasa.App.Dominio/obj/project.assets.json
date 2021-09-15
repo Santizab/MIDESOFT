@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\U\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+      "projectUniqueName": "C:\\U\\Hospitalizacion\\MIDESOFT\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
       "projectName": "HospiEnCasa.App.Dominio",
-      "projectPath": "C:\\U\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
+      "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\HospiEnCasa.App.Dominio.csproj",
       "packagesPath": "C:\\Users\\sz_21\\.nuget\\packages\\",
-      "outputPath": "C:\\U\\Hospitalizacion\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\obj\\",
+      "outputPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\HospiEnCasa.App\\HospiEnCasa.App.Dominio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\sz_21\\AppData\\Roaming\\NuGet\\NuGet.Config"
