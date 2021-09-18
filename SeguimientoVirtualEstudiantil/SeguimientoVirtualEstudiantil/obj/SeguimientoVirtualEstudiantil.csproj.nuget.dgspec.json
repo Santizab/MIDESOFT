@@ -1,0 +1,67 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil.csproj": {}
+  },
+  "projects": {
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil.csproj",
+        "projectName": "SeguimientoVirtualEstudiantil",
+        "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil.csproj",
+        "packagesPath": "C:\\Users\\sz_21\\.nuget\\packages\\",
+        "outputPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoVirtualEstudiantil\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sz_21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.18, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
