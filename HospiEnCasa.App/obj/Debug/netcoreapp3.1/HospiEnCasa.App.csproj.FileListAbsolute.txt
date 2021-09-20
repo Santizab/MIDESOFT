@@ -1,4 +1,0 @@
-C:\U\Hospitalizacion\MIDESOFT\HospiEnCasa.App\obj\Debug\netcoreapp3.1\HospiEnCasa.App.csprojAssemblyReference.cache
-C:\U\Hospitalizacion\MIDESOFT\HospiEnCasa.App\obj\Debug\netcoreapp3.1\HospiEnCasa.App.AssemblyInfoInputs.cache
-C:\U\Hospitalizacion\MIDESOFT\HospiEnCasa.App\obj\Debug\netcoreapp3.1\HospiEnCasa.App.AssemblyInfo.cs
-C:\U\Hospitalizacion\MIDESOFT\HospiEnCasa.App\obj\Debug\netcoreapp3.1\HospiEnCasa.App.csproj.CoreCompileInputs.cache
