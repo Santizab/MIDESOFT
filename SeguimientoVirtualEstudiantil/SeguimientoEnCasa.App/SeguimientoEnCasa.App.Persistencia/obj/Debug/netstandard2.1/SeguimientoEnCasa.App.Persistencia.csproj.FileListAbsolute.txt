@@ -1,0 +1,11 @@
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEncasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.csprojAssemblyReference.cache
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEncasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEncasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.deps.json
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.dll
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.pdb
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEncasa.App.Dominio.dll
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEncasa.App.Dominio.pdb
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.csproj.CopyComplete
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.dll
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.pdb

@@ -1,0 +1,8 @@
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Dominio\obj\Debug\netstandard2.0\SeguimientoEncasa.App.Dominio.csprojAssemblyReference.cache
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Dominio\obj\Debug\netstandard2.0\SeguimientoEncasa.App.Dominio.AssemblyInfoInputs.cache
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Dominio\obj\Debug\netstandard2.0\SeguimientoEncasa.App.Dominio.AssemblyInfo.cs
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Dominio\bin\Debug\netstandard2.0\SeguimientoEncasa.App.Dominio.deps.json
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Dominio\bin\Debug\netstandard2.0\SeguimientoEncasa.App.Dominio.dll
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Dominio\bin\Debug\netstandard2.0\SeguimientoEncasa.App.Dominio.pdb
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Dominio\obj\Debug\netstandard2.0\SeguimientoEncasa.App.Dominio.dll
+C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Dominio\obj\Debug\netstandard2.0\SeguimientoEncasa.App.Dominio.pdb
