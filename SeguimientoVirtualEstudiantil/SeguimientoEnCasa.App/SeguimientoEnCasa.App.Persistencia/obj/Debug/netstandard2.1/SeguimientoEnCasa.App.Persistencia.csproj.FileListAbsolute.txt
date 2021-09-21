@@ -9,3 +9,15 @@ C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Per
 C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.csproj.CopyComplete
 C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.dll
 C:\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.pdb
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.deps.json
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.dll
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.pdb
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEncasa.App.Dominio.dll
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\bin\Debug\netstandard2.1\SeguimientoEncasa.App.Dominio.pdb
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.csprojAssemblyReference.cache
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.AssemblyInfoInputs.cache
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.AssemblyInfo.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.csproj.CopyComplete
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.dll
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Persistencia\obj\Debug\netstandard2.1\SeguimientoEnCasa.App.Persistencia.pdb

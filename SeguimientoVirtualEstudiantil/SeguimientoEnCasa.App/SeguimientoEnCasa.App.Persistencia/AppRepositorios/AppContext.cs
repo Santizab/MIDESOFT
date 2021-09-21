@@ -5,7 +5,7 @@ using SeguimientoEnCasa.App.Dominio;
 
 namespace SeguimientoEnCasa.App.Persistencia
 {
-    public class AppContext:DbContext
+    public class AppContext : DbContext
     {
         public DbSet <Persona> Personas {get;set;}
         public DbSet <Acudiente> Acudientes {get;set;}
@@ -15,6 +15,16 @@ namespace SeguimientoEnCasa.App.Persistencia
         public DbSet <SugerenciaEstudio> Sugerencias {get;set;}
         public DbSet <Tutor> Tutores {get;set;}
         
+        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            if (!optionsBuilder.IsConfigured)
+            {
+                optionsBuilder
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =SeguimientoEnCasa.Data");
+            }
+
+        }
+
     }
 
 

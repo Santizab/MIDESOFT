@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj": {}
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj": {
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj",
+        "projectUniqueName": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj",
         "projectName": "SeguimientoEncasa.App.Dominio",
-        "projectPath": "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj",
-        "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
-        "outputPath": "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\obj\\",
+        "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\sz_21\\.nuget\\packages\\",
+        "outputPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gabriela\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sz_21\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -50,21 +50,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj": {
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj",
+        "projectUniqueName": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj",
         "projectName": "SeguimientoEnCasa.App.Persistencia",
-        "projectPath": "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj",
-        "packagesPath": "C:\\Users\\Gabriela\\.nuget\\packages\\",
-        "outputPath": "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\obj\\",
+        "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\sz_21\\.nuget\\packages\\",
+        "outputPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Gabriela\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\sz_21\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netstandard2.1"
@@ -75,8 +75,8 @@
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj": {
-                "projectPath": "C:\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj"
+              "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj": {
+                "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj"
               }
             }
           }
@@ -126,7 +126,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.118\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
         }
       }
     }
