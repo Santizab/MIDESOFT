@@ -4,7 +4,9 @@ namespace SeguimientoEnCasa.App.Dominio
 {
     public class Tutor
     {
+        public int Id{get;set;}
+        public string TarjetaProfesional {get;set;}
+        public int HorasLaborales {get;set;}
         
-        public SugerenciaEstudio SugerenciaEstudio {get;set;}
     }
 }

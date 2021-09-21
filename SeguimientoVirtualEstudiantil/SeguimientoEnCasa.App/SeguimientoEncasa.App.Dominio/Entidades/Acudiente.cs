@@ -6,7 +6,7 @@ namespace SeguimientoEnCasa.App.Dominio
     {
         public string Parentesco {get;set;}
         public string Correo {get;set;}
-        public SugerenciaEstudio SugerenciaEstudio {get;set;}
+        
 
     }
 
