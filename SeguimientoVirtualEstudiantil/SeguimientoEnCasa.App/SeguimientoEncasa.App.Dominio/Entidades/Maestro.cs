@@ -8,7 +8,6 @@ namespace SeguimientoEnCasa.App.Dominio
         public string Curso {get;set;}
         public string Registro{get;set;}
         
-        public Estudiante Estudiante {get;set;}
 
 
     }

@@ -2,9 +2,9 @@ using System;
 
 namespace SeguimientoEnCasa.App.Dominio
 {
-    public class Tutor
+    public class Tutor:Persona
     {
-        public int Id{get;set;}
+        
         public string TarjetaProfesional {get;set;}
         public int HorasLaborales {get;set;}
         

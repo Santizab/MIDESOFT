@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\SeguimientoEnCasa.App.Persistencia\SeguimientoEnCasa.App.Persistencia.csproj" />
+    <ProjectReference Include="..\SeguimientoEnCasa.App.Dominio\SeguimientoEncasa.App.Dominio.csproj" />
   </ItemGroup>
 
 </Project>

@@ -25,6 +25,9 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
+              "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj": {
+                "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj"
+              },
               "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj": {
                 "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj"
               }

@@ -10,7 +10,9 @@ namespace SeguimientoEnCasa.App.Dominio
         public string Ciudad {get;set;}
         public DateTime FechaDeNacimiento {get;set;}
         public Acudiente Acudiente{get;set;}
-        
+        public Tutor Tutor{get;set;}
+        public Maestro Maestro{get;set;}
+        public Historico Historico{get;set;}
         
     }
 

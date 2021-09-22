@@ -3,9 +3,12 @@ namespace SeguimientoEnCasa.App.Dominio
 {
     public enum Genero
     {
-        femenino,
-
-        masculino 
+        Femenino,
+        Masculino,
+        Bisexual,
+        Intersexual,
+        Pansexual,
+        Transexual
 
 
     }
