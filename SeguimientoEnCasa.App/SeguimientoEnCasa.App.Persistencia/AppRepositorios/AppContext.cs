@@ -1,4 +1,4 @@
-
+//prueba
 
 using Microsoft.EntityFrameworkCore;
 using SeguimientoEnCasa.App.Dominio;
