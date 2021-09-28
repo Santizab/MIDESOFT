@@ -12,7 +12,7 @@ namespace SeguimientoEnCasa.App.Persistencia
         public DbSet <Estudiante> Estudiantes {get;set;}
         public DbSet <Historico> Historicos {get;set;}
         public DbSet <Maestro> Maestros {get;set;}
-        public DbSet <SugerenciaEstudio> Sugerencias {get;set;}
+        public DbSet <SugerenciaEstudio> SugerenciaEstudios {get;set;}
         public DbSet <Tutor> Tutores {get;set;}
         
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

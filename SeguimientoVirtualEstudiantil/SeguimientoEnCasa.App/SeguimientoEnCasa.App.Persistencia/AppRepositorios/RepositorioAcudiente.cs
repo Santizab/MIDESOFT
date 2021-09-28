@@ -54,7 +54,7 @@ namespace SeguimientoEnCasa.App.Persistencia
             return acudienteEncontrado;
         }
 
-        IEnumerable<Acudiente> IRepositoriAcudiente.GetAllAcudientes()
+        IEnumerable<Acudiente> IRepositorioAcudiente.GetAllAcudientes()
         {
             return _appContext.Acudientes;
         }

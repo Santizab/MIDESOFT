@@ -9,7 +9,7 @@ namespace SeguimientoEnCasa.App.Persistencia
 
     public interface IRepositorioTutor
     {
-       IEnumerable<Tutor> GetAllTutors();
+       IEnumerable<Tutor> GetAllTutores();
        Tutor AddTutor(Tutor tutor);
        Tutor UpdateTutor(Tutor tutor);
        void DeleteTutor(int IdTutor);

@@ -17,14 +17,14 @@ namespace SeguimientoEnCasa.App.Persistencia
         }
         Tutor IRepositorioTutor.AddTutor(Tutor tutor)
         {
-            var tutorAdicionado=_appContext.Tutors.Add(tutor);
+            var tutorAdicionado=_appContext.Tutores.Add(tutor);
             _appContext.SaveChanges();
             return tutorAdicionado.Entity;
         }
 
         Tutor IRepositorioTutor.UpdateTutor(Tutor tutor)
         {
-            var tutorEncontrado=_appContext.Tutors.FirstOrDefault(p => p.Id ==tutor.Id);
+            var tutorEncontrado=_appContext.Tutores.FirstOrDefault(p => p.Id ==tutor.Id);
             if(tutorEncontrado!=null)
             {
                  tutorEncontrado.Nombre= tutor.Nombre;
@@ -41,22 +41,22 @@ namespace SeguimientoEnCasa.App.Persistencia
 
         void IRepositorioTutor.DeleteTutor(int IdTutor)
         {
-            var tutorEncontrado=_appContext.Tutors.FirstOrDefault(p => p.Id ==IdTutor);
+            var tutorEncontrado=_appContext.Tutores.FirstOrDefault(p => p.Id ==IdTutor);
             if(tutorEncontrado==null)
             return;
-            _appContext.Tutors.Remove(tutorEncontrado);
+            _appContext.Tutores.Remove(tutorEncontrado);
             _appContext.SaveChanges();
         }
 
         Tutor IRepositorioTutor.GetTutor(int IdTutor)
         {
-            var tutorEncontrado=_appContext.Tutors.FirstOrDefault(p => p.Id ==IdTutor);
+            var tutorEncontrado=_appContext.Tutores.FirstOrDefault(p => p.Id ==IdTutor);
             return tutorEncontrado;
         }
 
-        IEnumerable<Tutor> IRepositorioTutor.GetAllTutors()
+        IEnumerable<Tutor> IRepositorioTutor.GetAllTutores()
         {
-            return _appContext.Tutors;
+            return _appContext.Tutores;
         }
         
     }

@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Presentacion\\SeguimientoEnCasa.App.Presentacion.csproj": {}
+  },
+  "projects": {
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj",
+        "projectName": "SeguimientoEncasa.App.Dominio",
+        "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj",
+        "packagesPath": "C:\\Users\\sz_21\\.nuget\\packages\\",
+        "outputPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sz_21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj",
+        "projectName": "SeguimientoEnCasa.App.Persistencia",
+        "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj",
+        "packagesPath": "C:\\Users\\sz_21\\.nuget\\packages\\",
+        "outputPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sz_21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {
+              "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj": {
+                "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Presentacion\\SeguimientoEnCasa.App.Presentacion.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Presentacion\\SeguimientoEnCasa.App.Presentacion.csproj",
+        "projectName": "SeguimientoEnCasa.App.Presentacion",
+        "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Presentacion\\SeguimientoEnCasa.App.Presentacion.csproj",
+        "packagesPath": "C:\\Users\\sz_21\\.nuget\\packages\\",
+        "outputPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Presentacion\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sz_21\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj": {
+                "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj"
+              },
+              "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj": {
+                "projectPath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Persistencia\\SeguimientoEnCasa.App.Persistencia.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
