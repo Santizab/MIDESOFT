@@ -10,11 +10,11 @@ namespace SeguimientoEnCasa.App.Persistencia
 
     public class RepositorioAcudiente : IRepositorioAcudiente
     {
-        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext;
-        public RepositorioAcudiente(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext=appContext;
-        }
+        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext=new AppContext();
+        // public RepositorioAcudiente(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
+        // {
+        //     _appContext=appContext;
+        // }
         Acudiente IRepositorioAcudiente.AddAcudiente(Acudiente acudiente)
         {
             var acudienteAdicionado=_appContext.Acudientes.Add(acudiente);

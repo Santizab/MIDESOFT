@@ -3,12 +3,14 @@
 @{
 }
 <h1>Lista Estudiantes</h1>
-<table>
-    <tr>
-        <th scope="col">Nombre</th>
-        <th scope="col">Apellidos</th>
-        <th scope="col">Numero de Telefono</th>
-    </tr>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Numero de Telefono</th>
+        </tr>
+    </thead>
 
     @foreach (var p in Model.Estudiantes)
     {

@@ -10,11 +10,11 @@ namespace SeguimientoEnCasa.App.Persistencia
 
     public class RepositorioSugerenciaEstudio : IRepositorioSugerenciaEstudio
     {
-        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext;
-        public RepositorioSugerenciaEstudio(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext=appContext;
-        }
+        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext=new AppContext();
+        // public RepositorioSugerenciaEstudio(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
+        // {
+        //     _appContext=appContext;
+        // }
         SugerenciaEstudio IRepositorioSugerenciaEstudio.AddSugerenciaEstudio(SugerenciaEstudio sugerenciaEstudio)
         {
             var sugerenciaEstudioAdicionado=_appContext.SugerenciaEstudios.Add(sugerenciaEstudio);

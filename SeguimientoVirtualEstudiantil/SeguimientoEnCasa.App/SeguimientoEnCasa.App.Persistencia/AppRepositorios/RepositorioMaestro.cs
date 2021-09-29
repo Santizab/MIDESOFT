@@ -10,11 +10,11 @@ namespace SeguimientoEnCasa.App.Persistencia
 
     public class RepositorioMaestro : IRepositorioMaestro
     {
-        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext;
-        public RepositorioMaestro(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext=appContext;
-        }
+        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext=new AppContext();
+        // public RepositorioMaestro(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
+        // {
+        //     _appContext=appContext;
+        // }
         Maestro IRepositorioMaestro.AddMaestro(Maestro maestro)
         {
             var maestroAdicionado=_appContext.Maestros.Add(maestro);

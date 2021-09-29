@@ -10,11 +10,11 @@ namespace SeguimientoEnCasa.App.Persistencia
 
     public class RepositorioTutor : IRepositorioTutor
     {
-        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext;
-        public RepositorioTutor(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext=appContext;
-        }
+        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext=new AppContext();
+        // public RepositorioTutor(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
+        // {
+        //     _appContext=appContext;
+        // }
         Tutor IRepositorioTutor.AddTutor(Tutor tutor)
         {
             var tutorAdicionado=_appContext.Tutores.Add(tutor);

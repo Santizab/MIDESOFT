@@ -10,11 +10,11 @@ namespace SeguimientoEnCasa.App.Persistencia
 
     public class RepositorioHistorico : IRepositorioHistorico
     {
-        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext;
-        public RepositorioHistorico(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
-        {
-            _appContext=appContext;
-        }
+        private readonly SeguimientoEnCasa.App.Persistencia.AppContext _appContext=new AppContext();
+        // public RepositorioHistorico(SeguimientoEnCasa.App.Persistencia.AppContext appContext)
+        // {
+        //     _appContext=appContext;
+        // }
         Historico IRepositorioHistorico.AddHistorico(Historico historico)
         {
             var historicoAdicionado=_appContext.Historicos.Add(historico);
