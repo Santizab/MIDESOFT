@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XyRZDB11aAVbxkHptz404eUzUjX3Cy1Mm3f+aHWsibYjhO87lCi8TJmVhY3gcIV730kHmEbQl7sNwaV6CCt2iQ==",
+  "dgSpecHash": "Se7k06a8oBt/NdEy+Xa42cVb8YMGBEKfBnOayCcUuQArLihriJ42cxRq33V6md5xsQdeps/2n6lOr+zZwxJQzg==",
   "success": true,
   "projectFilePath": "C:\\U\\Hospitalizacion\\MIDESOFT\\SeguimientoVirtualEstudiantil\\SeguimientoEnCasa.App\\SeguimientoEnCasa.App.Dominio\\SeguimientoEncasa.App.Dominio.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\sz_21\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

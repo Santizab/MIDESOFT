@@ -6,7 +6,7 @@ namespace SeguimientoEnCasa.App.Consola
 {
     class Program
     {
-        private static IRepositorioEstudiante _repoEstudiante=new RepositorioEstudiante(new Persistencia.AppContext());
+        
         static void Main(string[] args)
         {
             Console.WriteLine("CRUDed");
@@ -14,31 +14,31 @@ namespace SeguimientoEnCasa.App.Consola
             // FindEstudiante(1);
         }
 
-        private static void AddEstudiante()
-        {
-            var estudiante = new Estudiante
-            {
+        // private static void AddEstudiante()
+        // {
+        //     var estudiante = new Estudiante
+        //     {
 
-                Nombre="EstudianteA",
-                Apellidos="AAA",
-                NumeroTelefono="1234",
-                Genero=Genero.Masculino,
-                Direccion="CllFk",
-                Latitud=29.236F,
-                Longitud=-90.658F,
-                Ciudad="NoWr",
-                FechaDeNacimiento=new DateTime(2001,01,01)
+        //         Nombre="EstudianteA",
+        //         Apellidos="AAA",
+        //         NumeroTelefono="1234",
+        //         Genero=Genero.Masculino,
+        //         Direccion="CllFk",
+        //         Latitud=29.236F,
+        //         Longitud=-90.658F,
+        //         Ciudad="NoWr",
+        //         FechaDeNacimiento=new DateTime(2001,01,01)
                 
-            };
-            _repoEstudiante.AddEstudiante(estudiante);
-        }
+        //     };
+        //     _repoEstudiante.AddEstudiante(estudiante);
+        // }
 
-        private static void FindEstudiante(int idEstudiante)
-        {
-            var estudiante =_repoEstudiante.GetEstudiante(idEstudiante);
-            Console.WriteLine(estudiante.Nombre+ " "+ estudiante.Apellidos);
+        // private static void FindEstudiante(int idEstudiante)
+        // {
+        //     var estudiante =_repoEstudiante.GetEstudiante(idEstudiante);
+        //     Console.WriteLine(estudiante.Nombre+ " "+ estudiante.Apellidos);
 
-        }
+        // }
 
     }
 }

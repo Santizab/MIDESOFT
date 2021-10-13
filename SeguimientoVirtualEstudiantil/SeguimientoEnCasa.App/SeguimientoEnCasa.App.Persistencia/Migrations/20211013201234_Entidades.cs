@@ -8,18 +8,18 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Sugerencias",
+                name: "SugerenciaEstudios",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     FechaHora = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Descripcion = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Estado = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Sugerencias", x => x.Id);
+                    table.PrimaryKey("PK_SugerenciaEstudios", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -34,9 +34,9 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                 {
                     table.PrimaryKey("PK_Historicos", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Historicos_Sugerencias_SugerenciaEstudioId",
+                        name: "FK_Historicos_SugerenciaEstudios_SugerenciaEstudioId",
                         column: x => x.SugerenciaEstudioId,
-                        principalTable: "Sugerencias",
+                        principalTable: "SugerenciaEstudios",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Restrict);
                 });
@@ -47,26 +47,26 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    Nombre = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Apellidos = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    NumeroTelefono = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Nombre = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
+                    Apellidos = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
+                    NumeroTelefono = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: false),
                     Genero = table.Column<int>(type: "int", nullable: false),
                     Discriminator = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Parentesco = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Correo = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Direccion = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Parentesco = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    Correo = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    Direccion = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
                     Latitud = table.Column<float>(type: "real", nullable: true),
                     Longitud = table.Column<float>(type: "real", nullable: true),
-                    Ciudad = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Ciudad = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
                     FechaDeNacimiento = table.Column<DateTime>(type: "datetime2", nullable: true),
                     AcudienteId = table.Column<int>(type: "int", nullable: true),
                     TutorId = table.Column<int>(type: "int", nullable: true),
                     MaestroId = table.Column<int>(type: "int", nullable: true),
                     HistoricoId = table.Column<int>(type: "int", nullable: true),
-                    Asignatura = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Curso = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Asignatura = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
+                    Curso = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
                     Registro = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    TarjetaProfesional = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    TarjetaProfesional = table.Column<string>(type: "nvarchar(30)", maxLength: 30, nullable: true),
                     HorasLaborales = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
@@ -133,7 +133,7 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                 name: "Historicos");
 
             migrationBuilder.DropTable(
-                name: "Sugerencias");
+                name: "SugerenciaEstudios");
         }
     }
 }

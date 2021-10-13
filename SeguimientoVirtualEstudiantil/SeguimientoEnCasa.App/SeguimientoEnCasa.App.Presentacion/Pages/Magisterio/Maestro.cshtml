@@ -1,0 +1,43 @@
+﻿@page
+@model SeguimientoEnCasa.App.Presentacion.Pages.Magisterio.MaestroModel
+@{
+}
+<h1>Lista De Maestros</h1>
+<a class="btndetalle" asp-page="./CrearMaestro">
+Crear Nuevo Maestro
+</a>
+<br>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Numero de Telefono</th>
+        </tr>
+    </thead>
+
+    @foreach (var p in Model.Maestros)
+    {
+        <tr>
+            <td>@p.Nombre</td>
+            <td>@p.Apellidos</td>
+            <td>@p.NumeroTelefono</td>
+            <td>
+                <a class="btndetalle" asp-page="./DetallesMaestro" asp-route-IdMaestro="@p.Id">
+                Detalles
+                </a>
+            </td>
+            <td>
+                <a class="btndetalle" asp-page="./EditarMaestro" asp-route-IdMaestro="@p.Id">
+                Editar
+                </a>
+            </td>
+            <td>
+                <a class="btndetalle btndetallepur" asp-page="./EliminarMaestro" asp-route-IdMaestro="@p.Id">
+                Eliminar
+                </a>
+            </td>
+        </tr>
+    }
+</table>

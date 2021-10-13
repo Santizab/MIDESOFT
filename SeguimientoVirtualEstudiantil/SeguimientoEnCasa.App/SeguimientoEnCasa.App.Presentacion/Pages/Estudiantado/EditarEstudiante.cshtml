@@ -1,0 +1,87 @@
+﻿@page
+@using SeguimientoEnCasa.App.Dominio
+@model SeguimientoEnCasa.App.Presentacion.Pages.Estudiantado.EditarEstudianteModel
+@{
+}
+<h2>Edición del Estudiante :@Model.Estudiante.Nombre</h2>
+<form method="post">
+    <input type="hidden" asp-for="Estudiante.Id"/>
+    <div class="form-group">
+        <label asp-for="Estudiante.Nombre"></label>
+        <input asp-for="Estudiante.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="Estudiante.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Apellidos"></label>
+        <input asp-for="Estudiante.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="Estudiante.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label>Numero De Telefono</label>
+        <input asp-for="Estudiante.NumeroTelefono" class="form-control">
+        <span class="text-danger" asp-validation-for="Estudiante.NumeroTelefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Genero"></label>
+        <select asp-for="Estudiante.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control"></select>
+        <span class="text-danger" asp-validation-for="Estudiante.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Direccion"></label>
+        <input asp-for="Estudiante.Direccion" class="form-control">
+        <span class="text-danger" asp-validation-for="Estudiante.Direccion"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Latitud"></label>
+        <input asp-for="Estudiante.Latitud" class="form-control">
+        <span class="text-danger" asp-validation-for="Estudiante.Latitud"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Longitud"></label>
+        <input asp-for="Estudiante.Longitud" class="form-control">
+        <span class="text-danger" asp-validation-for="Estudiante.Longitud"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Ciudad"></label>
+        <input asp-for="Estudiante.Ciudad" class="form-control">
+        <span class="text-danger" asp-validation-for="Estudiante.Ciudad"></span>
+    </div>
+    <div class="form-group">
+        <label>Fecha De Nacimiento</label>
+        <input type="date" asp-for="Estudiante.FechaDeNacimiento">
+        <span class="text-danger" asp-validation-for="Estudiante.FechaDeNacimiento"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Acudiente"></label>
+        @* <div class="col-md-5">
+            @Html.DropDownListFor(x => Model.Acudiente.Nombre, new SelectList(Model.Acudientes, "Value", "Text"), htmlAttributes: new { @class = "form-control", id = "Acudiente"})
+            @Html.ValidationMessageFor(x => x.Acudiente.Nombre, "", new { @class = "text-danger" })
+        </div> *@
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Tutor"></label>
+        @* <div class="col-md-5">
+            @Html.DropDownListFor(x => Model.Tutor.Nombre, new SelectList(Model.Tutores, "Value", "Text"), htmlAttributes: new { @class = "form-control", id = "Tutor"})
+            @Html.ValidationMessageFor(x => x.Tutor.Nombre, "", new { @class = "text-danger" })
+        </div> *@
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Maestro"></label>
+        @* <div class="col-md-5">
+            @Html.DropDownListFor(x => Model.Maestro.Nombre, new SelectList(Model.Maestros, "Value", "Text"), htmlAttributes: new { @class = "form-control", id = "Maestro"})
+            @Html.ValidationMessageFor(x => x.Maestro.Nombre, "", new { @class = "text-danger" })
+        </div> *@
+    </div>
+    <div class="form-group">
+        <label asp-for="Estudiante.Historico"></label>
+        @* <div class="col-md-5">
+            @Html.DropDownListFor(x => Model.Historico.SugerenciaEstudio, new SelectList(Model.Historicos, "Value", "Text"), htmlAttributes: new { @class = "form-control", id = "Historico"})
+            @Html.ValidationMessageFor(x => x.Historico.SugerenciaEstudio, "", new { @class = "text-danger" })
+        </div> *@
+    </div>
+
+    
+    <button type="submit" class="btn btn-primary">Grabar</button>
+</form>
+
+<a asp-page="./Estudiante" class="btn-default">Lista de Estudiantes </a>

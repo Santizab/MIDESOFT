@@ -79,5 +79,14 @@ C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.Ap
 C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoEnCasa.App.Persistencia.dll
 C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoEncasa.App.Dominio.pdb
 C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\bin\Debug\netcoreapp3.1\SeguimientoEnCasa.App.Persistencia.pdb
-C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Usuarios\Estudiante.cshtml.g.cs
-C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Usuarios\Usuarios.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Usuarios.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantado\DetallesEstudiante.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantado\Estudiante.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantado\EditarEstudiante.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantado\CrearEstudiante.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantado\EliminarEstudiante.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Magisterio\CrearMaestro.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Magisterio\DetallesMaestro.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Magisterio\EditarMaestro.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Magisterio\EliminarMaestro.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Magisterio\Maestro.cshtml.g.cs

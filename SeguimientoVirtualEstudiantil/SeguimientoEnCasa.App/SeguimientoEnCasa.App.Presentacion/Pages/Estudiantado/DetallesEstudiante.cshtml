@@ -1,0 +1,49 @@
+﻿@page
+@model SeguimientoEnCasa.App.Presentacion.Pages.Estudiantado.DetallesEstudianteModel
+@{
+}
+<h2>@Model.Estudiante.Nombre</h2>
+<div>
+    Id: @Model.Estudiante.Id
+</div>
+<div>
+    Nombre: @Model.Estudiante.Nombre
+</div>
+<div>
+    Apellidos: @Model.Estudiante.Apellidos
+</div>
+<div>
+    Numero de Telefono: @Model.Estudiante.NumeroTelefono
+</div>
+<div>
+    Genero: @Model.Estudiante.Genero
+</div>
+<div>
+    Direccion: @Model.Estudiante.Direccion
+</div>
+<div>
+    Latitud: @Model.Estudiante.Latitud
+</div>
+<div>
+    Longitud: @Model.Estudiante.Longitud
+</div>
+<div>
+    Ciudad: @Model.Estudiante.Ciudad
+</div>
+<div>
+    FechaDeNacimiento: @Model.Estudiante.FechaDeNacimiento
+</div>
+<div>
+    Acudiente: @Model.Estudiante.Acudiente.Nombre
+</div>
+<div>
+    Tutor: @Model.Estudiante.Tutor.Nombre
+</div>
+<div>
+    Maestro: @Model.Estudiante.Maestro.Nombre
+</div>
+
+
+<a asp-page="./Estudiante" class="btn-default">
+Volver
+</a>

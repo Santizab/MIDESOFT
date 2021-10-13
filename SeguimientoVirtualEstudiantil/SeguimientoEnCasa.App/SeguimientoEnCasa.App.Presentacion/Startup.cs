@@ -26,6 +26,11 @@ namespace SeguimientoEnCasa.App.Presentacion
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioEstudiante,RepositorioEstudiante>();
+            services.AddSingleton<IRepositorioAcudiente,RepositorioAcudiente>();
+            services.AddSingleton<IRepositorioHistorico,RepositorioHistorico>();
+            services.AddSingleton<IRepositorioMaestro,RepositorioMaestro>();
+            services.AddSingleton<IRepositorioSugerenciaEstudio,RepositorioSugerenciaEstudio>();
+            services.AddSingleton<IRepositorioTutor,RepositorioTutor>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

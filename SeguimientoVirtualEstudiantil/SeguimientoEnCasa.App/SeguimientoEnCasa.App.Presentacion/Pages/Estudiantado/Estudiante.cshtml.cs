@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using SeguimientoEnCasa.App.Dominio;
 using SeguimientoEnCasa.App.Persistencia;
 
-namespace SeguimientoEnCasa.App.Presentacion.Pages
+namespace SeguimientoEnCasa.App.Presentacion.Pages.Estudiantado
 {
     public class EstudianteModel : PageModel
     {

@@ -44,7 +44,9 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Apellidos")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Discriminator")
                         .IsRequired()
@@ -54,10 +56,14 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Nombre")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("NumeroTelefono")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasKey("Id");
 
@@ -74,6 +80,7 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .UseIdentityColumn();
 
                     b.Property<string>("Descripcion")
+                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("Estado")
@@ -84,7 +91,7 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Sugerencias");
+                    b.ToTable("SugerenciaEstudios");
                 });
 
             modelBuilder.Entity("SeguimientoEnCasa.App.Dominio.Acudiente", b =>
@@ -92,10 +99,14 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                     b.HasBaseType("SeguimientoEnCasa.App.Dominio.Persona");
 
                     b.Property<string>("Correo")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Parentesco")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasDiscriminator().HasValue("Acudiente");
                 });
@@ -108,10 +119,14 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Ciudad")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Direccion")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<DateTime>("FechaDeNacimiento")
                         .HasColumnType("datetime2");
@@ -147,10 +162,14 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                     b.HasBaseType("SeguimientoEnCasa.App.Dominio.Persona");
 
                     b.Property<string>("Asignatura")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Curso")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.Property<string>("Registro")
                         .HasColumnType("nvarchar(max)");
@@ -166,7 +185,9 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("TarjetaProfesional")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
 
                     b.HasDiscriminator().HasValue("Tutor");
                 });

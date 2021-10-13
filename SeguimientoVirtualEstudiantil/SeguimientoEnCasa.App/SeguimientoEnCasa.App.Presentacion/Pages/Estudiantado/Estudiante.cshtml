@@ -1,0 +1,43 @@
+﻿@page
+@model SeguimientoEnCasa.App.Presentacion.Pages.Estudiantado.EstudianteModel
+@{
+}
+<h1>Lista Estudiantes</h1>
+<a class="btndetalle" asp-page="./CrearEstudiante">
+Crear Nuevo Estudiante
+</a>
+<br>
+<br>
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">Nombre</th>
+            <th scope="col">Apellidos</th>
+            <th scope="col">Numero de Telefono</th>
+        </tr>
+    </thead>
+
+    @foreach (var p in Model.Estudiantes)
+    {
+        <tr>
+            <td>@p.Nombre</td>
+            <td>@p.Apellidos</td>
+            <td>@p.NumeroTelefono</td>
+            <td>
+                <a class="btndetalle" asp-page="./DetallesEstudiante" asp-route-IdEstudiante="@p.Id">
+                Detalles
+                </a>
+            </td>
+            <td>
+                <a class="btndetalle" asp-page="./EditarEstudiante" asp-route-IdEstudiante="@p.Id">
+                Editar
+                </a>
+            </td>
+            <td>
+                <a class="btndetalle btndetallepur" asp-page="./EliminarEstudiante" asp-route-IdEstudiante="@p.Id">
+                Eliminar
+                </a>
+            </td>
+        </tr>
+    }
+</table>

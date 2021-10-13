@@ -1,0 +1,21 @@
+﻿@page
+@model SeguimientoEnCasa.App.Presentacion.Pages.Magisterio.EliminarMaestroModel
+@{
+}
+<h2>Eliminacion Maestro :@Model.Maestro.Nombre</h2>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Maestro.Nombre"></label>
+        <input asp-for="Maestro.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="Maestro.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Maestro.Apellidos"></label>
+        <input asp-for="Maestro.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="Maestro.Apellidos"></span>
+    </div>
+
+<button type="submit" class="btn btn-primary">Confirmar!</button>
+</form>
+
+<a asp-page="./Maestro" class="btn-default">Lista de Maestros</a>
