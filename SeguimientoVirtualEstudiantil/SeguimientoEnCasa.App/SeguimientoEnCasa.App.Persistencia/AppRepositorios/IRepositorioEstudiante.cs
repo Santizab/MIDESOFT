@@ -15,6 +15,7 @@ namespace SeguimientoEnCasa.App.Persistencia
        void DeleteEstudiante(int IdEstudiante);
        Estudiante GetEstudiante(int IdEstudiante);
 
+       Estudiante AddAcudiente(int IdEstudiante, Acudiente acudiente);
     }
     
 }

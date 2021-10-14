@@ -37,6 +37,10 @@ namespace SeguimientoEnCasa.App.Presentacion.Pages.Magisterio
 
         public IActionResult OnPost()
         {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
             Maestro=_repoMaestro.UpdateMaestro(Maestro);
             return RedirectToPage("./Maestro");
         }

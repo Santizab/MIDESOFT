@@ -1,0 +1,32 @@
+﻿@page
+@model SeguimientoEnCasa.App.Presentacion.Pages.GrupoTutores.DetallesTutorModel
+@{
+}
+<h2>@Model.Tutor.Nombre</h2>
+<div>
+    Id: @Model.Tutor.Id
+</div>
+<div>
+    Nombre: @Model.Tutor.Nombre
+</div>
+<div>
+    Apellidos: @Model.Tutor.Apellidos
+</div>
+<div>
+    Numero de Telefono: @Model.Tutor.NumeroTelefono
+</div>
+<div>
+    Genero: @Model.Tutor.Genero
+</div>
+<div>
+    Direccion: @Model.Tutor.TarjetaProfesional
+</div>
+<div>
+    Latitud: @Model.Tutor.HorasLaborales
+</div>
+
+
+
+<a asp-page="./Tutor" class="btn-default">
+Volver
+</a>

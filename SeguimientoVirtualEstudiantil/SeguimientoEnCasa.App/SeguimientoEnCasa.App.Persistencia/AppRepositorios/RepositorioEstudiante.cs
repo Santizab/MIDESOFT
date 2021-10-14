@@ -36,10 +36,6 @@ namespace SeguimientoEnCasa.App.Persistencia
                  estudianteEncontrado.Longitud= estudiante.Longitud;
                  estudianteEncontrado.Ciudad= estudiante.Ciudad;
                  estudianteEncontrado.FechaDeNacimiento= estudiante.FechaDeNacimiento;
-                 estudianteEncontrado.Acudiente= estudiante.Acudiente;
-                 estudianteEncontrado.Tutor= estudiante.Tutor;
-                 estudianteEncontrado.Maestro= estudiante.Maestro;
-                 estudianteEncontrado.Historico= estudiante.Historico;
 
                  _appContext.SaveChanges();
             }
@@ -64,6 +60,38 @@ namespace SeguimientoEnCasa.App.Persistencia
         IEnumerable<Estudiante> IRepositorioEstudiante.GetAllEstudiantes()
         {
             return _appContext.Estudiantes;
+        }
+
+        Estudiante IRepositorioEstudiante.AddAcudiente(int IdEstudiante, Acudiente acudiente)
+        {
+            var estudiante=_appContext.Estudiantes.Find(IdEstudiante);
+            if(estudiante!=null)
+            {
+                if (estudiante.AcudienteList==null)
+                {
+                    estudiante.AcudienteList= new List<Acudiente>();
+                    estudiante.AcudienteList.Add(acudiente);
+                }
+                
+                
+            }
+            var estudianteEncontrado=_appContext.Estudiantes.FirstOrDefault(p => p.Id ==estudiante.Id);
+            if(estudianteEncontrado!=null)
+            {
+                 estudianteEncontrado.Nombre= estudiante.Nombre;
+                 estudianteEncontrado.Apellidos= estudiante.Apellidos;
+                 estudianteEncontrado.NumeroTelefono= estudiante.NumeroTelefono;
+                 estudianteEncontrado.Genero= estudiante.Genero;
+                 estudianteEncontrado.Direccion= estudiante.Direccion;
+                 estudianteEncontrado.Latitud= estudiante.Latitud;
+                 estudianteEncontrado.Longitud= estudiante.Longitud;
+                 estudianteEncontrado.Ciudad= estudiante.Ciudad;
+                 estudianteEncontrado.FechaDeNacimiento= estudiante.FechaDeNacimiento;
+                 
+
+                 _appContext.SaveChanges();
+            }
+            return estudianteEncontrado;
         }
         
     }

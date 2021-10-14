@@ -26,10 +26,15 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .HasColumnType("int")
                         .UseIdentityColumn();
 
+                    b.Property<int?>("EstudianteId")
+                        .HasColumnType("int");
+
                     b.Property<int?>("SugerenciaEstudioId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("EstudianteId");
 
                     b.HasIndex("SugerenciaEstudioId");
 
@@ -62,8 +67,8 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
 
                     b.Property<string>("NumeroTelefono")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("nvarchar(30)");
+                        .HasMaxLength(13)
+                        .HasColumnType("nvarchar(13)");
 
                     b.HasKey("Id");
 
@@ -103,10 +108,16 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<int?>("EstudianteId")
+                        .HasColumnType("int")
+                        .HasColumnName("Acudiente_EstudianteId");
+
                     b.Property<string>("Parentesco")
                         .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
+
+                    b.HasIndex("EstudianteId");
 
                     b.HasDiscriminator().HasValue("Acudiente");
                 });
@@ -114,9 +125,6 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
             modelBuilder.Entity("SeguimientoEnCasa.App.Dominio.Estudiante", b =>
                 {
                     b.HasBaseType("SeguimientoEnCasa.App.Dominio.Persona");
-
-                    b.Property<int?>("AcudienteId")
-                        .HasColumnType("int");
 
                     b.Property<string>("Ciudad")
                         .IsRequired()
@@ -131,28 +139,11 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                     b.Property<DateTime>("FechaDeNacimiento")
                         .HasColumnType("datetime2");
 
-                    b.Property<int?>("HistoricoId")
-                        .HasColumnType("int");
-
                     b.Property<float>("Latitud")
                         .HasColumnType("real");
 
                     b.Property<float>("Longitud")
                         .HasColumnType("real");
-
-                    b.Property<int?>("MaestroId")
-                        .HasColumnType("int");
-
-                    b.Property<int?>("TutorId")
-                        .HasColumnType("int");
-
-                    b.HasIndex("AcudienteId");
-
-                    b.HasIndex("HistoricoId");
-
-                    b.HasIndex("MaestroId");
-
-                    b.HasIndex("TutorId");
 
                     b.HasDiscriminator().HasValue("Estudiante");
                 });
@@ -171,8 +162,13 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.Property<int?>("EstudianteId")
+                        .HasColumnType("int");
+
                     b.Property<string>("Registro")
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("EstudianteId");
 
                     b.HasDiscriminator().HasValue("Maestro");
                 });
@@ -180,6 +176,10 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
             modelBuilder.Entity("SeguimientoEnCasa.App.Dominio.Tutor", b =>
                 {
                     b.HasBaseType("SeguimientoEnCasa.App.Dominio.Persona");
+
+                    b.Property<int?>("EstudianteId")
+                        .HasColumnType("int")
+                        .HasColumnName("Tutor_EstudianteId");
 
                     b.Property<int>("HorasLaborales")
                         .HasColumnType("int");
@@ -189,11 +189,17 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
 
+                    b.HasIndex("EstudianteId");
+
                     b.HasDiscriminator().HasValue("Tutor");
                 });
 
             modelBuilder.Entity("SeguimientoEnCasa.App.Dominio.Historico", b =>
                 {
+                    b.HasOne("SeguimientoEnCasa.App.Dominio.Estudiante", null)
+                        .WithMany("HistoricoList")
+                        .HasForeignKey("EstudianteId");
+
                     b.HasOne("SeguimientoEnCasa.App.Dominio.SugerenciaEstudio", "SugerenciaEstudio")
                         .WithMany()
                         .HasForeignKey("SugerenciaEstudioId");
@@ -201,31 +207,36 @@ namespace SeguimientoEnCasa.App.Persistencia.Migrations
                     b.Navigation("SugerenciaEstudio");
                 });
 
+            modelBuilder.Entity("SeguimientoEnCasa.App.Dominio.Acudiente", b =>
+                {
+                    b.HasOne("SeguimientoEnCasa.App.Dominio.Estudiante", null)
+                        .WithMany("AcudienteList")
+                        .HasForeignKey("EstudianteId");
+                });
+
+            modelBuilder.Entity("SeguimientoEnCasa.App.Dominio.Maestro", b =>
+                {
+                    b.HasOne("SeguimientoEnCasa.App.Dominio.Estudiante", null)
+                        .WithMany("MaestroList")
+                        .HasForeignKey("EstudianteId");
+                });
+
+            modelBuilder.Entity("SeguimientoEnCasa.App.Dominio.Tutor", b =>
+                {
+                    b.HasOne("SeguimientoEnCasa.App.Dominio.Estudiante", null)
+                        .WithMany("TutorList")
+                        .HasForeignKey("EstudianteId");
+                });
+
             modelBuilder.Entity("SeguimientoEnCasa.App.Dominio.Estudiante", b =>
                 {
-                    b.HasOne("SeguimientoEnCasa.App.Dominio.Acudiente", "Acudiente")
-                        .WithMany()
-                        .HasForeignKey("AcudienteId");
+                    b.Navigation("AcudienteList");
 
-                    b.HasOne("SeguimientoEnCasa.App.Dominio.Historico", "Historico")
-                        .WithMany()
-                        .HasForeignKey("HistoricoId");
+                    b.Navigation("HistoricoList");
 
-                    b.HasOne("SeguimientoEnCasa.App.Dominio.Maestro", "Maestro")
-                        .WithMany()
-                        .HasForeignKey("MaestroId");
+                    b.Navigation("MaestroList");
 
-                    b.HasOne("SeguimientoEnCasa.App.Dominio.Tutor", "Tutor")
-                        .WithMany()
-                        .HasForeignKey("TutorId");
-
-                    b.Navigation("Acudiente");
-
-                    b.Navigation("Historico");
-
-                    b.Navigation("Maestro");
-
-                    b.Navigation("Tutor");
+                    b.Navigation("TutorList");
                 });
 #pragma warning restore 612, 618
         }

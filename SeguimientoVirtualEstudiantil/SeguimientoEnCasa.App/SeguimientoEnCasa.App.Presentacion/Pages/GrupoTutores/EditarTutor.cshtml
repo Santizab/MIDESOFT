@@ -1,0 +1,44 @@
+﻿@page
+@using SeguimientoEnCasa.App.Dominio
+@model SeguimientoEnCasa.App.Presentacion.Pages.GrupoTutores.EditarTutorModel
+@{
+}
+<h2>Edición del Tutor :@Model.Tutor.Nombre</h2>
+<form method="post">
+    <input type="hidden" asp-for="Tutor.Id"/>
+    <div class="form-group">
+        <label asp-for="Tutor.Nombre"></label>
+        <input asp-for="Tutor.Nombre" class="form-control">
+        <span class="text-danger" asp-validation-for="Tutor.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tutor.Apellidos"></label>
+        <input asp-for="Tutor.Apellidos" class="form-control">
+        <span class="text-danger" asp-validation-for="Tutor.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label>Numero De Telefono</label>
+        <input asp-for="Tutor.NumeroTelefono" class="form-control">
+        <span class="text-danger" asp-validation-for="Tutor.NumeroTelefono"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tutor.Genero"></label>
+        <select asp-for="Tutor.Genero" asp-items="Html.GetEnumSelectList<Genero>()" class="form-control"></select>
+        <span class="text-danger" asp-validation-for="Tutor.Apellidos"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tutor.TarjetaProfesional"></label>
+        <input asp-for="Tutor.TarjetaProfesional" class="form-control">
+        <span class="text-danger" asp-validation-for="Tutor.TarjetaProfesional"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tutor.HorasLaborales"></label>
+        <input asp-for="Tutor.HorasLaborales" class="form-control">
+        <span class="text-danger" asp-validation-for="Tutor.HorasLaborales"></span>
+    </div>
+    
+    
+    <button type="submit" class="btn btn-primary">Grabar</button>
+</form>
+
+<a asp-page="./Tutor" class="btn-default">Lista de Tutores </a>

@@ -34,14 +34,22 @@
     FechaDeNacimiento: @Model.Estudiante.FechaDeNacimiento
 </div>
 <div>
-    Acudiente: @Model.Estudiante.Acudiente.Nombre
+    Acudiente: 
+    @if(Model.Estudiante.AcudienteList==null)
+    {
+        <a class="btndetalle" asp-page="./CrearAcudiente" asp-route-IdEstudiante="@Model.Estudiante.Id">
+        Crear Acudiente
+        </a>
+    }
+    else
+    @Model.Estudiante.AcudienteList[0].Nombre
 </div>
-<div>
+@* <div>
     Tutor: @Model.Estudiante.Tutor.Nombre
 </div>
 <div>
     Maestro: @Model.Estudiante.Maestro.Nombre
-</div>
+</div> *@
 
 
 <a asp-page="./Estudiante" class="btn-default">

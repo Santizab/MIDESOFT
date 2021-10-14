@@ -1,5 +1,6 @@
 using System;
 using System.ComponentModel.DataAnnotations;
+using System.Collections.Generic;
 
 namespace SeguimientoEnCasa.App.Dominio
 {
@@ -15,10 +16,10 @@ namespace SeguimientoEnCasa.App.Dominio
         public string Ciudad {get;set;}
         [Required (ErrorMessage = "{0} es obligatorio")]
         public DateTime FechaDeNacimiento {get;set;}
-        public Acudiente Acudiente{get;set;}
-        public Tutor Tutor{get;set;}
-        public Maestro Maestro{get;set;}
-        public Historico Historico{get;set;}
+        public List<Acudiente> AcudienteList{get;set;}
+        public List<Tutor> TutorList{get;set;}
+        public List<Maestro> MaestroList{get;set;}
+        public List<Historico> HistoricoList{get;set;}
         
     }
 

@@ -1,0 +1,21 @@
+﻿@page
+@model SeguimientoEnCasa.App.Presentacion.Pages.GrupoTutores.EliminarTutorModel
+@{
+}
+<h2>Eliminacion Tutor :@Model.Tutor.Nombre</h2>
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Tutor.Nombre"></label>
+        <input asp-for="Tutor.Nombre" class="form-control" readonly>
+        <span class="text-danger" asp-validation-for="Tutor.Nombre"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Tutor.Apellidos"></label>
+        <input asp-for="Tutor.Apellidos" class="form-control" readonly>
+        <span class="text-danger" asp-validation-for="Tutor.Apellidos"></span>
+    </div>
+
+<button type="submit" class="btn btn-primary">Confirmar!</button>
+</form>
+
+<a asp-page="./Tutor" class="btn-default">Lista de Tutors</a>

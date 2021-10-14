@@ -20,7 +20,7 @@ namespace SeguimientoEnCasa.App.Persistencia
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder
-                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =SeguimientoEnCasa.Data");
+                .UseSqlServer("Data Source = (localdb)\\MSSQLLocalDB; Initial Catalog =SeguimientoEnCasaA.Data");
             }
 
         }

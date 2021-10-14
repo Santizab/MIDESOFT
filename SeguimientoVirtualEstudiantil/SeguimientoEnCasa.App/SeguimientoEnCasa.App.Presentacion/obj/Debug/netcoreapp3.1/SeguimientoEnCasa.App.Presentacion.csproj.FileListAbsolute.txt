@@ -90,3 +90,9 @@ C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.Ap
 C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Magisterio\EditarMaestro.cshtml.g.cs
 C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Magisterio\EliminarMaestro.cshtml.g.cs
 C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Magisterio\Maestro.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\GrupoTutores\CrearTutor.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\GrupoTutores\DetallesTutor.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\GrupoTutores\EditarTutor.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\GrupoTutores\EliminarTutor.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\GrupoTutores\Tutor.cshtml.g.cs
+C:\U\Hospitalizacion\MIDESOFT\SeguimientoVirtualEstudiantil\SeguimientoEnCasa.App\SeguimientoEnCasa.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Estudiantado\CrearAcudiente.cshtml.g.cs

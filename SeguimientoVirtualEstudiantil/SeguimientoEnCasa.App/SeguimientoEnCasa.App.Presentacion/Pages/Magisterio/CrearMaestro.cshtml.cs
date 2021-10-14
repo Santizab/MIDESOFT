@@ -26,6 +26,10 @@ namespace SeguimientoEnCasa.App.Presentacion.Pages.Magisterio
 
         public IActionResult OnPost(Maestro Maestro)
         {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
             Maestro=_repoMaestro.AddMaestro(Maestro);
             return RedirectToPage("./Maestro");
         }

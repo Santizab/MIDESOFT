@@ -65,6 +65,10 @@ namespace SeguimientoEnCasa.App.Presentacion.Pages.Estudiantado
 
         public IActionResult OnPost()
         {
+            if (!ModelState.IsValid)
+            {
+                return Page();
+            }
             Estudiante=_repoEstudiante.UpdateEstudiante(Estudiante);
             return RedirectToPage("./Estudiante");
         }
